@@ -77,3 +77,5 @@ sbash -> pour les dossier plus gros
 Chemin d’accès absolu -> /User/epante/Desktop
 
 Chemin d’accès relatif -> ~Desktop
+
+Utiliser multiqc -> ./multiqc en se plaçant en haut de l'arbre
