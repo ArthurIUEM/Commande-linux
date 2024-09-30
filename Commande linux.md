@@ -28,7 +28,7 @@ ll -> équivalent à ls avec l’option liste (r = rend, w = write, e = execute
 
 du – h -> permet de voir combien de stockage prend chaque dossier
 
-> -> permet de rediriger un dossier 
+'> -> permet de rediriger un dossier' 
 
 | -> affiche les lignes de mon fichier qui contienne le signe quand il est en début de ligne ( ex : grep « ^> » seq.fasta | wc – l
 
