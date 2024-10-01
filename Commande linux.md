@@ -85,3 +85,6 @@ Chemin d’accès relatif -> ~Desktop
 Utiliser multiqc -> ./multiqc en se plaçant en haut de l'arbre
 
 srun -A tp_tps_iuem_bioinfo_166600 --pty bash pour se connecter au cluster
+
+sbatch -A tp_tps_iuem_bioinfo_166600 ipyrad_commands.sh
+exemple pour lancer un travail sans être devant l'ordinateur
