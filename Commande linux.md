@@ -74,6 +74,7 @@ sbash -> pour les dossier plus gros
 
 ./ -> pour utiliser un fichier BASH
 
+fonction -n -> faire un nouveau (ex : ipyrad -n pedicularis pour créer params-pediculairs.txt)
 Chemin d’accès absolu -> /User/epante/Desktop
 
 Chemin d’accès relatif -> ~Desktop
