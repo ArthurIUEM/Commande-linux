@@ -89,5 +89,5 @@ srun -A tp_tps_iuem_bioinfo_166600 --pty bash pour se connecter au cluster
 sbatch -A tp_tps_iuem_bioinfo_166600 ipyrad_commands.sh
 exemple pour lancer un travail sans être devant l'ordinateur
 
-more.bash_history
+more .bash_history
 permet de voir l'historique de nos commandes
