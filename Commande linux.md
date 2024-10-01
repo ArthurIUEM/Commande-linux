@@ -83,3 +83,5 @@ Chemin d’accès absolu -> /User/epante/Desktop
 Chemin d’accès relatif -> ~Desktop
 
 Utiliser multiqc -> ./multiqc en se plaçant en haut de l'arbre
+
+srun -A tp_tps_iuem_bioinfo_166600 --pty bash pour se connecter au cluster
