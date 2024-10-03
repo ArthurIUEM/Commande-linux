@@ -91,3 +91,17 @@ exemple pour lancer un travail sans être devant l'ordinateur
 
 more .bash_history
 permet de voir l'historique de nos commandes
+
+`
+#!/bin/bash
+#SBATCH --job-name=ipyrad-ep
+#SBATCH --mem=250G
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=eric.pante@cnrs.fr
+
+module load ipyrad/0.9.84
+# ipyrad --download SRP021469 rawdata/
+# ipyrad -n pedicularis
+
+ipyrad -p params-pedicularis.txt -s 34567 -f
+`
