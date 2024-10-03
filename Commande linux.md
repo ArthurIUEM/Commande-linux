@@ -92,6 +92,12 @@ exemple pour lancer un travail sans être devant l'ordinateur
 more .bash_history
 permet de voir l'historique de nos commandes
 
+`squeue -u tp180285` exemple pour suivre un travail qu'on a soumis avec sbatch
+
+
+
+
+
 `
 #!/bin/bash
 #SBATCH --job-name=ipyrad-ep
